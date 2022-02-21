@@ -1,0 +1,20 @@
+name: SoloGames
+main: NoobMCBG\SoloGames\SoloGames
+api: 4.0.0
+version: 1.0.0
+author: NoobMCBG
+description: A duel of 2 players
+
+permissions:
+  sologames.command:
+    description: Permission use command /solo
+    default: true
+  sologames.command.setup:
+    description: Permission use command /solo setup
+    default: op
+  sologames.command.random:
+    description: Permission use command /solo random
+    default: true
+  sologames.command.join:
+    description: Permission use command /solo join
+    default: true
